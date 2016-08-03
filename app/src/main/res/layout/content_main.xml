@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00263c"
+    android:id="@+id/main_frame"
+    >
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <ListView
+
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/listView"
+
+            android:background="@drawable/pic"
+            />
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/shadow"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="#2979FF"
+
+        />
+    <ImageView
+        android:id="@+id/shadow_sink"
+        android:layout_marginTop="100px"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#616161"
+
+        />
+    <ImageView
+        android:id="@+id/shadow_top"
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:background="#20FFFFFF"
+
+        />
+    <EditText android:id="@+id/inputSearch"
+        android:paddingLeft="20px"
+        android:textColor="#616161"
+        android:layout_width="600px"
+        android:layout_marginTop="10px"
+        android:layout_marginLeft="20px"
+        android:layout_height="80px"
+        android:hint="Поиск музыки.."
+        android:inputType="text"
+        android:background="@drawable/style_edit_search"
+        />
+
+
+    <ImageView
+        android:id="@+id/browser_ImageView"
+        android:layout_width="80px"
+        android:layout_height="80px"
+        android:background="@drawable/ic_view_headline_white_24dp"
+        android:layout_marginLeft="650px"
+        android:layout_marginTop="10px"
+        android:onClick="onClickBtn"
+        />
+
+</FrameLayout>
